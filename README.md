@@ -9,9 +9,10 @@
 ## Technologies
 Techs used to build this project:
 
-<img src="https://img.shields.io/badge/HTML5-green">
-<img src="https://img.shields.io/badge/Tailwind--CSS-blue">
-<img src="https://img.shields.io/badge/JavaScript-yellow">
+![Static Badge](https://img.shields.io/badge/HTML5-green)
+![Static Badge](https://img.shields.io/badge/Tailwind--CSS-blue)
+![Static Badge](https://img.shields.io/badge/JavaScript-yellow)
+
 
 ## Overview  
 
