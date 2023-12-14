@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="script2.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+
+          .myfont{
+            font-family: 'Open Sans', sans-serif;
+          }
+
+          .img-size{
+            width: 250px;
+            
+          }
+
+          .icon-size{
+            width: 40px;
+          }
+
+        }
+      </style>
+      <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+<body class="myfont">
+  <header class="flex items-center justify-between px-2 py-2 md:px-3">
+    <div class="md:flex md:items-center md:font-bold md:text-xl md:gap-9">
+      <img src="img/rock.png" alt="logo" class="w-10 md:w-14">
+      <p class="hidden md:block">Gothic Night Club</p>
+    </div>
+  
+    <div class="form">
+      <input type="text" class="h-8 rounded-md md:w-[500px] md:h-9" placeholder="Search...">
+      <button class="bg-lime-200 px-3 py-1 font-bold rounded-md md:px-4 md:py-1.5">ok</button>
+    </div>
+<i class="material-symbols-outlined menu-fixo md:hidden">menu</i>
+  </header>
+
+<nav class="block nav-links md:text-2xl">
+  <ul class="flex justify-between px-3 font-bold my-2">
+    <li><a href="index.html" class="border-b-2 border-lime-200">Home</a></li>
+    <li><a href="bands.html" class="border-b-2 border-lime-200">Bands</a></li>
+    <li><a href="shop.html" class="border-b-2 border-lime-200">Shop</a></li>
+    <li><a href="contact.html" class="border-b-2 border-lime-200">Contact</a></li>
+  </ul>
+</nav>
+
+<h2 class="text-3xl text-center font-bold my-4 md:text-6xl md:mt-10 md:py-5">Enjoy our sale</h2>
+<p class="text-center px-4 md:text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam veritatis corrupti est?</p>
+
+
+<div class="grid grid-cols-1 md:grid-cols-2 mt-10">
+
+  <div class="grid grid-cols-2 col-start-1">
+    <div class="grid-cols-1">
+      <img src="img/cap-md-black.webp" class="w-40">
+    </div>
+  
+    <div class="col-start-2">
+      <p class="font-bold text-xl">Molchat Doma Hat</p>
+      <p class="line-through text-slate-400 text-sm">Was $25.00</p>
+      <p class="text-lg text-red-500 font-bold">Now $17.90</p>
+      <button class="text-base font-bold bg-lime-200 px-5 py-1 mt-4 rounded-md">BUY NOW</button>
+    </div>
+  
+  </div>
+  
+  <div class="grid grid-cols-2 col-start-1 md:col-start-2">
+    <div>
+      <img src="img/tshirt-vv.jpg" class="w-48">
+    </div>
+  
+    <div>
+      <p class="font-bold text-xl">T-Shirt Vestron Vulture</p>
+      <p class="line-through text-slate-400 text-sm">Was $32.00</p>
+      <p class="text-lg text-red-500 font-bold">Now $20.00</p>
+      <button class="text-base font-bold bg-lime-200 px-5 py-1 mt-4 rounded-md">BUY NOW</button>
+    </div>
+  
+  </div>
+
+  <div class="grid grid-cols-2 col-start-1">
+    <div>
+      <img src="img/md-lp.webp" class="w-48">
+    </div>
+  
+    <div class="">
+      <p class="font-bold text-xl"> Etazhi LP</p>
+      <p>Molchat Doma</p>
+      <p class="line-through text-slate-400 text-sm">Was $35.00</p>
+      <p class="text-lg text-red-500 font-bold">Now $28.00</p>
+      <button class="text-base font-bold bg-lime-200 px-5 py-1 mt-4 rounded-md">BUY NOW</button>
+    </div>
+  
+  </div>
+  
+  
+  <div class="grid grid-cols-2 col-start-1 md:col-start-2">
+    <div>
+      <img src="img/lp-lh.webp" class="w-48">
+    </div>
+  
+    <div>
+      <p class="font-bold text-xl">Lebanon Hanover LP</p>
+      <p>The world is getting colder</p>
+      <p class="line-through text-slate-400 text-sm">Was $36.00</p>
+      <p class="text-lg text-red-500 font-bold">Now $29.00</p>
+      <button class="text-base font-bold bg-lime-200 px-5 py-1 mt-4 rounded-md">BUY NOW</button>
+    </div>
+  
+  </div>
+
+  <div class="grid grid-cols-2 col-start-1 md:col-start-1">
+    <div>
+      <img src="img/tshirt-mtrm.jpg" class="w-46">
+    </div>
+  
+    <div>
+      <p class="font-bold text-xl">T-Shirt Motorama</p>
+      <p class="line-through text-slate-400 text-sm">Was $26.00</p>
+      <p class="text-lg text-red-500 font-bold">Now $19.00</p>
+      <button class="text-base font-bold bg-lime-200 px-5 py-1 mt-4 rounded-md">BUY NOW</button>
+    </div>
+  
+  </div>
+
+
+  <div class="grid grid-cols-2 col-start-1 md:col-start-2">
+    <div>
+      <img src="img/lp-fg.jpg" class="w-40 ml-8">
+    </div>
+  
+    <div>
+      <p class="font-bold text-xl">Forever Gray LP</p>
+      <p class="line-through text-slate-400 text-sm">Was $32.00</p>
+      <p class="text-lg text-red-500 font-bold">Now $25.00</p>
+      <button class="text-base font-bold bg-lime-200 px-5 py-1 mt-4 rounded-md">BUY NOW</button>
+    </div>
+  
+  </div>
+
+</div>
+
+<footer class="mt-8">
+  <div class="bg-lime-200 py-10 flex justify-around md:py-20">
+  <a href="#"><img src="img/tik-tok.png" alt="tik tok" class="icon-size md:w-14"></a>
+  <a href="#"><img src="img/instagram (1).png" alt="instagram" class="icon-size md:w-14"></a>
+  <a href="#"><img src="img/twitter (1).png" alt="twitter" class="icon-size md:w-14"></a>
+  </div>
+  </footer>

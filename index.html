@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="script.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+
+          .myfont{
+            font-family: 'Open Sans', sans-serif;
+          }
+
+          .img-size{
+            width: 250px;
+            
+          }
+
+          .icon-size{
+            width: 40px;
+          }
+
+        }
+      </style>
+      <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+<body class="myfont">
+    <header class="flex items-center justify-between px-2 py-2 md:px-3">
+      <div class="md:flex md:items-center md:font-bold md:text-xl md:gap-9">
+        <img src="img/rock.png" alt="logo" class="w-10 md:w-14">
+        <p class="hidden md:block">Gothic Night Club</p>
+      </div>
+    
+      <div class="form">
+        <input type="text" class="h-8 rounded-md md:w-[500px] md:h-9" placeholder="Search...">
+        <button class="bg-lime-200 px-3 py-1 font-bold rounded-md md:px-4 md:py-1.5">ok</button>
+      </div>
+<i class="material-symbols-outlined menu md:hidden">menu</i>
+    </header>
+
+<nav class="hidden md:block md:text-2xl">
+  <ul class="flex justify-between px-3 font-bold my-2">
+    <li><a href="index.html" class="border-b-2 border-lime-200">Home</a></li>
+    <li><a href="bands.html" class="border-b-2 border-lime-200">Bands</a></li>
+    <li><a href="shop.html" class="border-b-2 border-lime-200">Shop</a></li>
+    <li><a href="contact.html" class="border-b-2 border-lime-200">Contact</a></li>
+  </ul>
+</nav>
+
+
+<h1 class="font-bold text-center text-3xl my-4 md:text-6xl md:mt-10 md:py-5">The Best Gothic Playlist</h1>
+
+<div class="md:flex md:w-full">
+
+  <div class="md:order-2 md:w-2/5">
+    <p class="text-center px-4 pb-4 md:text-2xl md:font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, inventore.</p>
+  <p class="hidden md:block md:pb-3 px-3 py-5 text-lg text-justify">Lorem, ipsum dolor sitit. Ipsam cupiditate fuga, quibusdam nam corporis quo soluta impedit tenetur facere eum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorum doloribus accusamus voluptates?</p>
+<p class="hidden md:block px-3 text-lg text-justify">
+  Eum similique quia odit explicabo impedit repellendus ullam accusamus modi aliquam accusantium fugiat soluta
+  ipsa cum provident veritatis, quos ab natus libero quidem aliquid commodi, officiis et perspiciatis! 
+  Fugiat dicta fugit nesciunt, quam explicabo cum totam unde?
+</p>
+
+<div class="hidden md:block text-center text-lg mt-10 py-3 w-60 mx-auto bg-lime-200 cursor-pointer rounded-md">
+  <a href="https://open.spotify.com/playlist/6pSVQuXHgdL4ly8gB2AK3I?si=500b3005e7b34858" target="_blank" class="font-bold">Go to Gothic Night</a>
+</div>
+
+  </div>
+
+  <div class="md:order-1 md:w-3/5 md:flex md:justify-center">
+    <img src="img/french-police.jpg" class="img-size py-2 mx-auto md:mx-0 md:pl-3 md:w-full lg:w-4/5">
+  </div>
+</div>
+
+
+<div class="text-center mt-2 py-2 w-60 mx-auto bg-lime-200 rounded-md md:hidden">
+  <a href="https://open.spotify.com/playlist/6pSVQuXHgdL4ly8gB2AK3I?si=500b3005e7b34858" target="_blank" class="font-bold">Go to Gothic Night</a>
+</div>
+
+
+<h2 class="font-bold text-center text-3xl my-4 md:text-5xl md:mt-10 md:py-5">Listen Vestron Vulture</h2>
+
+<div class="md:flex md:w-full">
+<div class="md:w-2/5">
+  
+  <p class="text-center px-4 pb-4 md:text-2xl md:font-bold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At praesentium nam veritatis culpa delectus alias aperiam.</p>
+  <p class="hidden md:block md:pb-3 px-5 py-5 text-lg text-justify">Lorem, ipsum dolor sitit. Ipsam cupiditate fuga, quibusdam nam corporis quo soluta impedit tenetur facere eum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorum doloribus accusamus voluptates?</p>
+<p class="hidden md:block px-5 text-lg text-justify">
+  Eum similique quia odit explicabo impedit repellendus ullam accusamus modi aliquam accusantium fugiat soluta
+  ipsa cum provident veritatis, quos ab natus libero quidem aliquid commodi, officiis et perspiciatis! 
+  Fugiat dicta fugit nesciunt, quam explicabo cum totam unde?
+</p>
+
+<div class="hidden md:block text-center text-lg mt-10 py-3 w-60 mx-auto bg-lime-200 cursor-pointer rounded-md">
+  <a href="https://open.spotify.com/intl-pt/artist/0TdyFEXGty3cRKFCI1CJPr?si=W40cqct9QZOxz-SwkiVTzg" target="_blank" class="font-bold">Listen Vestron Vulture</a>
+</div>
+</div>
+
+<div class="md:w-3/5 md:flex md:justify-center">
+  <img src="img/vestron.jpg" alt="vestron vulture" class="img-size py-2 mx-auto md:mx-0 md:pl-3 md:w-full md:px-2 lg:w-4/5">
+</div>
+</div>
+
+
+<div class="text-center mt-2 py-2 w-60 mx-auto bg-lime-200 cursor-pointer rounded-md md:hidden">
+  <a href="https://open.spotify.com/intl-pt/artist/0TdyFEXGty3cRKFCI1CJPr?si=W40cqct9QZOxz-SwkiVTzg" target="_blank" class="font-bold">Listen Vestron Vulture</a>
+</div>
+
+<!--Here is the form -->
+
+<h2 class="font-bold text-center text-3xl my-4 md:text-5xl md:mt-10 md:py-5">Subscribe our Newsletter</h2>
+<p class="text-center px-4 pb-4 md:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+  Doloribus aliquid voluptas voluptatem accusamus recusandae. Sequi!</p>
+
+<div class="bg-red-100 py-9 px-10 mx-8 flex flex-col rounded-md md:w-2/5 md:mx-auto">
+<label for="name" class="font-bold">Name:</label>
+<input type="text" name="name" id="name" class="rounded-md border-none">
+<label for="email" class="font-bold">Email:</label>
+<input type="email" name="email" id="email" class="rounded-md border-none">
+<button class="mt-5 py-2  bg-lime-300 rounded-md font-bold">Subscribe</button>
+</div>
+
+<footer class="mt-8">
+<div class="bg-lime-200 py-10 flex justify-around md:py-20">
+<a href="#"><img src="img/tik-tok.png" alt="tik tok" class="icon-size md:w-14"></a>
+<a href="#"><img src="img/instagram (1).png" alt="instagram" class="icon-size md:w-14"></a>
+<a href="#"><img src="img/twitter (1).png" alt="twitter" class="icon-size md:w-14"></a>
+</div>
+</footer>
+
+
+</body>
+</html>
+

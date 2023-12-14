@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gothic Night Club</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="script2.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+
+          .myfont{
+            font-family: 'Open Sans', sans-serif;
+          }
+
+          .img-size{
+            width: 250px;
+            
+          }
+
+          .icon-size{
+            width: 40px;
+          }
+
+        }
+      </style>
+      <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+<body class="myfont">
+  <header class="flex items-center justify-between px-2 py-2 md:px-3">
+    <div class="md:flex md:items-center md:font-bold md:text-xl md:gap-9">
+      <img src="img/rock.png" alt="logo" class="w-10 md:w-14">
+      <p class="hidden md:block">Gothic Night Club</p>
+    </div>
+  
+    <div class="form">
+      <input type="text" class="h-8 rounded-md md:w-[500px] md:h-9" placeholder="Search...">
+      <button class="bg-lime-200 px-3 py-1 font-bold rounded-md md:px-4 md:py-1.5">ok</button>
+    </div>
+<i class="material-symbols-outlined menu-fixo md:hidden">menu</i>
+  </header>
+
+<nav class="block nav-links md:text-2xl">
+  <ul class="flex justify-between px-3 font-bold my-2">
+    <li><a href="index.html" class="border-b-2 border-lime-200">Home</a></li>
+    <li><a href="bands.html" class="border-b-2 border-lime-200">Bands</a></li>
+    <li><a href="shop.html" class="border-b-2 border-lime-200">Shop</a></li>
+    <li><a href="contact.html" class="border-b-2 border-lime-200">Contact</a></li>
+  </ul>
+</nav>
+
+<h2 class="font-bold text-center text-3xl my-4 md:text-6xl md:mt-10 md:py-5">Send a message</h2>
+
+<p class="text-center px-4 md:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi consequuntur quod provident.</p>
+<p class="hidden md:block text-center text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, orem ipsum dolor sit amet consectetur adipisicing elit. Laborum, incidunt.</p>
+
+<div class="md:w-2/4 md:mx-auto">
+  <div class="bg-red-100 py-9 px-10 mx-8 flex flex-col mt-5 rounded-md">
+    <label for="name" class="font-bold">Name:</label>
+    <input type="text" name="name" id="name" class="rounded-md border-none">
+    <label for="email" class="font-bold">Email:</label>
+    <input type="email" name="email" id="email" class="rounded-md border-none">
+    <label for="msg" class="font-bold">Message:</label>
+    <textarea class="resize-none rounded-md border-none"></textarea>
+    <button class="mt-5 py-2  bg-lime-300 rounded-md font-bold">Subscribe</button>
+    </div>
+</div>
+
+
+<footer class="mt-8">
+  <h2 class="font-bold text-center text-3xl my-4 md:text-5xl">Follow us</h2>
+  <p class="text-center px-4 pb-4 md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, magni!</p>
+  
+  <div class="bg-lime-200 py-10 flex justify-around">
+  <a href="#"><img src="img/tik-tok.png" alt="tik tok" class="icon-size md:w-14"></a>
+  <a href="#"><img src="img/instagram (1).png" alt="instagram" class="icon-size md:w-14"></a>
+  <a href="#"><img src="img/twitter (1).png" alt="twitter" class="icon-size md:w-14"></a>
+  </div>
+  </footer>
+
+  

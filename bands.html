@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script src="script2.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+
+          .myfont{
+            font-family: 'Open Sans', sans-serif;
+          }
+
+          .img-size{
+            width: 250px;
+            
+          }
+
+          .icon-size{
+            width: 40px;
+          }
+
+        }
+      </style>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+
+<body class="myfont">
+  <header class="flex items-center justify-between px-2 py-2 md:px-3">
+    <div class="md:flex md:items-center md:font-bold md:text-xl md:gap-9">
+      <img src="img/rock.png" alt="logo" class="w-10 md:w-14">
+      <p class="hidden md:block">Gothic Night Club</p>
+    </div>
+
+    <div class="form">
+      <input type="text" class="h-8 rounded-md md:w-[500px] md:h-9" placeholder="Search...">
+      <button class="bg-lime-200 px-3 py-1 font-bold rounded-md md:px-4 md:py-1.5">ok</button>
+    </div>
+    <i class="material-symbols-outlined menu-fixo md:hidden">menu</i>
+  </header>
+
+  <nav class="block nav-links md:text-2xl">
+    <ul class="flex justify-between px-3 font-bold my-2">
+      <li><a href="index.html" class="border-b-2 border-lime-200">Home</a></li>
+      <li><a href="bands.html" class="border-b-2 border-lime-200">Bands</a></li>
+      <li><a href="shop.html" class="border-b-2 border-lime-200">Shop</a></li>
+      <li><a href="contact.html" class="border-b-2 border-lime-200">Contact</a></li>
+    </ul>
+  </nav>
+
+  <h2 class="font-bold text-center text-3xl my-4 md:text-6xl md:mt-10 md:py-5">Harsh Symmetry</h2>
+
+  <div class="md:flex md:w-full md:justify-center md:mx-auto">
+
+    <div class="md:w-2/4">
+      <p class="text-center px-4 pb-4 md:text-2xl md:font-bold">Lorem ipsum dolor sit amet consectetur, adipisicing
+        elit. At praesentium nam veritatis culpa delectus alias aperiam.</p>
+      <p class="hidden md:block md:pb-3 px-5 py-5 text-lg text-justify">Lorem, ipsum dolor sitit. Ipsam cupiditate fuga,
+        quibusdam nam corporis quo soluta impedit tenetur facere eum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorum doloribus accusamus voluptates?</p>
+      <p class="hidden md:block px-5 text-lg text-justify">
+        Eum similique quia odit explicabo impedit repellendus ullam accusamus modi aliquam accusantium fugiat soluta
+        ipsa cum provident veritatis, quos ab natus libero quidem aliquid commodi, officiis et perspiciatis!
+        Fugiat dicta fugit nesciunt, quam explicabo cum totam unde?
+      </p>
+
+      <div class="hidden md:block text-center text-lg mt-10 py-3 w-60 mx-auto bg-lime-200 cursor-pointer rounded-md">
+        <a href="https://open.spotify.com/intl-pt/artist/2iw3bPHWeP872IeCAk2JmR?si=fHQOATdJTWixIj4nie6K1A"
+          target="_blank" class="font-bold">Listen Harsh Symmetry</a>
+      </div>
+
+    </div>
+
+    <div class="md:w-2/4 md:flex md:justify-center">
+      <img src="img/hash.jpg" alt="harsh band" class="img-size py-2 mx-auto md:mx-0 md:pl-3 md:w-full md:px-2 lg:w-4/5">
+    </div>
+
+  </div>
+
+  <div class="text-center mt-2 py-2 w-60 mx-auto bg-lime-200 cursor-pointer rounded-md md:hidden">
+    <a href="https://open.spotify.com/intl-pt/artist/0TdyFEXGty3cRKFCI1CJPr?si=W40cqct9QZOxz-SwkiVTzg" target="_blank"
+      class="font-bold">Go to band</a>
+  </div>
+
+  <h2 class="font-bold text-center text-3xl my-4 md:text-5xl md:mt-10 md:py-5">Listen Mementut</h2>
+  <p class="text-center px-4 pb-4 md:text-2xl md:font-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Illum vitae aliquid sed incidunt pariatur quae laudantium, rem magni eius sit?</p>
+  <p class="hidden md:block md:pb-3 px-10 py-5 text-lg text-justify">Lorem, ipsum dolor sitit. Ipsam cupiditate fuga,
+    quibusdam nam corporis quo soluta impedit tenetur facere eum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolorum doloribus accusamus voluptates?</p>
+  <p class="hidden md:block px-10 text-lg text-justify">
+    Eum similique quia odit explicabo impedit repellendus ullam accusamus modi aliquam accusantium fugiat soluta
+    ipsa cum provident veritatis, quos ab natus libero quidem aliquid commodi, officiis et perspiciatis!
+    Fugiat dicta fugit nesciunt, quam explicabo cum totam unde?
+  </p>
+
+  <div class="md:border md:border-black md:w-[500px] md:mx-auto md:mt-12 md:py-6">
+    <div class="md:border md:border-black md:w-[450px] md:mx-auto md:py-5 md:px-4">
+      <div class="md:border md:border-black md:w-[400px] md:mx-auto md:py-2 md:px-3">
+        <img src="img/mementut.webp" alt="mementut" class="img-size mx-auto py-2 md:w-[400px] md:px-2">
+      </div>
+    </div>
+  </div>
+  <div class="text-center mt-2 py-2 w-60 mx-auto bg-lime-200 md:cursor-pointer rounded-md md:mt-5 md:text-lg">
+    <a href="https://open.spotify.com/intl-pt/artist/0T949YDXZ1Bjy5X2BlKbO2?si=FPgTbJSmR-Wy5I-PphrEaw" target="_blank"
+      class="font-bold">Go to Mementut</a>
+  </div>
+
+  <h2 class="font-bold text-center text-3xl my-4 md:text-5xl md:w-4/5 md:mx-auto md:mt-10">The best darkwave, synthwave and post punk bands</h2>
+  <p class="text-center px-4 pb-4 md:text-2xl md:font-bold md:py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium rem itaque quia maxime
+    maiores officiis! Lorem ipsum dolor sit amet.</p>
+    <p class="hidden md:block px-10 text-lg text-justify">
+      Eum similique quia odit explicabo impedit repellendus ullam accusamus modi aliquam accusantium fugiat soluta
+      ipsa cum provident veritatis, quos ab natus libero quidem aliquid commodi, officiis et perspiciatis!
+      Fugiat dicta fugit nesciunt, quam explicabo cum totam unde?
+    </p>
+
+  <img src="img/past-way.jpg" alt="she past way" class="img-size mx-auto py-2 md:w-[400px] md:mt-5">
+
+  <footer class="mt-8">
+    <div class="bg-lime-200 py-10 flex justify-around md:py-20">
+      <img src="img/tik-tok.png" alt="tik tok" class="icon-size md:w-14">
+      <img src="img/instagram (1).png" alt="instagram" class="icon-size md:w-14">
+      <img src="img/twitter (1).png" alt="twitter" class="icon-size md:w-14">
+    </div>
+  </footer>
