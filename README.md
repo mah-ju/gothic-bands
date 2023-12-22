@@ -16,12 +16,12 @@ Techs used to build this project:
 
 ## Overview  
 
-<img src="screenshots/overview-screen.png">
+<img src="screenshots/gothic-bands-overview.png">
 
 
 ### Mobile
 
-<img src="screenshots/overview-mobile.png">
+<img src="screenshots/gothic-bands-overview-mobile.png">
 
 
 ### Gif
